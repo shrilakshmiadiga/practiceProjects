@@ -1,0 +1,15 @@
+Problem Statement:
+Create a Java program that simulates a simple online shopping cart. The program should allow users to add items to the cart, view the cart, and calculate the total price of the items in the cart.
+
+Requirements:
+
+The program should have two classes: Product and ShoppingCart.
+The Product class should have the following attributes: productId, name, and price.
+The ShoppingCart class should have an ArrayList to store the products added to the cart.
+The ShoppingCart class should have the following methods:
+addItem(Product product): Adds a product to the cart.
+removeItem(Product product): Removes a product from the cart.
+viewCart(): Displays the products in the cart along with their details.
+calculateTotalPrice(): Calculates and returns the total price of all the products in the cart.
+The program should provide a menu-based interface to interact with the shopping cart. The menu should include options to add an item, remove an item, view the cart, and calculate the total price. 
+The program should continue to display the menu until the user chooses to exit.
