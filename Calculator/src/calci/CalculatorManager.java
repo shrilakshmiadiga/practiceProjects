@@ -11,9 +11,9 @@ public class CalculatorManager {
 	public static void main(String args[]) {
 		
 		Operations operations = new Operations();
-		boolean choice = true;
+		
 		int options = 0;
-		while (choice) {
+		while (true) {
 				System.out.println();
 				System.out.println("Select your choice");
 				System.out.println("1. Divide 2 numbers");
@@ -41,7 +41,7 @@ public class CalculatorManager {
 					break;
 				case 4:
 					System.out.println("Exiting....");
-					choice = false;
+					System.exit(0);
 					break;
 				default:
 					break;
