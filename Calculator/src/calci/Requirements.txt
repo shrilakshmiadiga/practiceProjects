@@ -1,0 +1,11 @@
+Problem statement
+
+Create a Java program to simulate a basic calculator. The program should allow users to
+a. Divide 2 numbers.
+	User should enter both numerator and denominator.
+b. Find sum of array elements
+	User should enter the size of array and array elements.
+c. Calculate power of a given number.
+	User should enter the base value and the exponent value
+Implement a menu-based interface to interact with the system.
+The menu should include options to divide, calculate sum of array and calculate power of a number.
