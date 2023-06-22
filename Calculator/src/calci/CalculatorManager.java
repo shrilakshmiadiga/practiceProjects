@@ -9,11 +9,11 @@ public class CalculatorManager {
 	}
 
 	public static void main(String args[]) {
-		Scanner sc = new Scanner(System.in);
+		
 		Operations operations = new Operations();
-		try {
-			while (true) {
-
+		boolean choice = true;
+		int options = 0;
+		while (choice) {
 				System.out.println();
 				System.out.println("Select your choice");
 				System.out.println("1. Divide 2 numbers");
@@ -21,7 +21,14 @@ public class CalculatorManager {
 				System.out.println("3. Sum of array");
 				System.out.println("4. Exit");
 				System.out.println();
-				int options = sc.nextInt();
+				Scanner sc = new Scanner(System.in);
+				try {
+				options = sc.nextInt();
+				}catch (InputMismatchException ie) {
+					System.out.println("Input data types mismatch!!");
+				}catch(Exception e) {
+					System.out.println("Error occured");
+				}
 				switch (options) {
 				case 1:
 					operations.divide();
@@ -34,18 +41,14 @@ public class CalculatorManager {
 					break;
 				case 4:
 					System.out.println("Exiting....");
-					System.exit(0);
+					choice = false;
 					break;
 				default:
 					break;
 				}
-			}
-		} catch (InputMismatchException ie) {
-			System.out.println("Input data types mismatch!!");
-		} catch (Exception e) {
-			System.out.println("Error occured");
-		}
-
+			} 
+		
 	}
-
+	
+	 
 }
