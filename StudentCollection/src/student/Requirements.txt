@@ -1,0 +1,15 @@
+Problem statement
+Create a Java program to simulate a basic student management system.
+The program should allow users to add students, view student details, and calculate the average grade for a group of students.
+
+Requirements:
+Create a class named Student with the following attributes: id, name, age, and grade.
+Create a class named StudentManagementSystem to manage the students.
+The StudentManagementSystem class should have an ArrayList to store the students.
+
+Implement the following methods in the StudentManagementSystem class:
+addStudent(Student student): Adds a student to the system.
+viewStudentDetails(int studentId): Displays the details of a student with the given student ID.
+calculateAverageGrade(): Calculates and returns the average grade for all the students in the system.
+
+Implement a menu-based interface to interact with the student management system.The menu should include options to add students, view student details, calculate the average grade, and exit the program.The program should continue to display the menu until the user chooses to exit.
