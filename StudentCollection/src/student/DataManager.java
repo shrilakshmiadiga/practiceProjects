@@ -46,7 +46,7 @@ public class DataManager {
 				System.out.println("Enter student age");
 				int age = sc.nextInt();
 				if (!validator.isValidAge(age))
-					System.out.println("Enter valid age. Age must be between 5 and 120");
+					System.out.println("Enter valid age. Age must be between 5 and 100");
 				else {
 					System.out.println("Enter grade");
 					double grade = sc.nextDouble();

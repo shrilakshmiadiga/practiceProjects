@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class Validator {
 
 	public boolean isValidAge(int age) {
-		return (age > 5 && age < 200);
+		return (age > 5 && age < 100);
 	}
 	
 	public boolean isValidGrade(double grade) {
